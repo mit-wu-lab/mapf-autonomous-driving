@@ -19,6 +19,10 @@ Apologies for the sparse instructions. Clone this repo and add it to the `PYTHON
 ## Run
 Again sorry for the sparse instructions.
 
+The main script is `bicycle_model.py`, and it can be parameterized to run with different search methods and intersection settings.
+
+For FIFO: run the script as is.
+
 For OBS: use `method='obs'` and set `obs_order_threshold` parameter to control number of OBS orders searched.
 
 For PP: use `method='pp'` and set `num_random_orders` to control number of PP orders.
