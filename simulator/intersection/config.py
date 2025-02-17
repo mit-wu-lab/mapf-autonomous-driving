@@ -1,6 +1,6 @@
 import numpy as np
 import argparse
-from mixed_autonomy_mpc.util import Path
+from util import Path
 
 render_images = False
 

@@ -2,10 +2,10 @@ import numpy as np
 import cvxpy as cp
 import time
 import math
-from mixed_autonomy_mpc.util import Namespace
+from util import Namespace
 from collections import deque, Counter, defaultdict
-from mixed_autonomy_mpc.mcts.tree.search import MCTS
-from mixed_autonomy_mpc.mcts.tree.nodes import MCTSNode
+from mcts.tree.search import MCTS
+from mcts.tree.nodes import MCTSNode
 
 
 from simulator.intersection.config import *
